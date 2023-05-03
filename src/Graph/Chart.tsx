@@ -1,11 +1,13 @@
 // import React from 'react'
 
-import { Dough } from "../Page/Doughnut";
+import { Barchat } from "../Page/Barchat";
+// import { Dough } from "../Page/Doughnut";
 
 const Chart = () => {
   return (
     <div>
-      <Dough />
+      {/* <Dough /> */}
+      <Barchat />
     </div>
   );
 };
