@@ -1,12 +1,12 @@
 // import React from 'react'
 
 import { Barchat } from "../Page/Barchat";
-// import { Dough } from "../Page/Doughnut";
+import { Dough } from "../Page/Doughnut";
 
 const Chart = () => {
   return (
-    <div>
-      {/* <Dough /> */}
+    <div style={{}}>
+      <Dough />
       <Barchat />
     </div>
   );

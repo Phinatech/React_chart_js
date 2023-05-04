@@ -54,7 +54,7 @@ Array.from({ length: 10 }, () => {
   });
 });
 
-export const data = {
+export const data: any = {
   labels: emptyarr2.map((el: any) => el.items),
   datasets: [
     {
@@ -73,7 +73,6 @@ export const data = {
 export function Barchat() {
   return (
     <div>
-      {" "}
       <Bar options={options} data={data} />
       <div>
         <p>{JSON.stringify(emptyarr1.map((el) => el.cost))}</p>
@@ -82,3 +81,11 @@ export function Barchat() {
     </div>
   );
 }
+//   style={{
+//         width: "100%",
+//         height: "100vh",
+//         display: "flex",
+//         justifyContent: "center",
+//         alignItems: "center",
+//         backgroundColor: "red",
+//       }}
