@@ -72,20 +72,21 @@ export const data: any = {
 
 export function Barchat() {
   return (
-    <div>
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+      }}
+    >
       <Bar options={options} data={data} />
-      <div>
+      {/* <div>
         <p>{JSON.stringify(emptyarr1.map((el) => el.cost))}</p>
         <p>{JSON.stringify(emptyarr2.map((el) => el.items))}</p>
-      </div>
+      </div> */}
     </div>
   );
 }
-//   style={{
-//         width: "100%",
-//         height: "100vh",
-//         display: "flex",
-//         justifyContent: "center",
-//         alignItems: "center",
-//         backgroundColor: "red",
-//       }}

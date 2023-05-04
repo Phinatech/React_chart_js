@@ -1,12 +1,21 @@
 // import React from 'react'
 
 import { Barchat } from "../Page/Barchat";
-import { Dough } from "../Page/Doughnut";
+// import { Dough } from "../Page/Doughnut";
 
 const Chart = () => {
   return (
-    <div style={{}}>
-      <Dough />
+    <div
+      style={{
+        width: "100vw",
+        maxHeight: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      {/* <Dough /> */}
       <Barchat />
     </div>
   );
