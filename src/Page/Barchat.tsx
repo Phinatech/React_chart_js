@@ -79,7 +79,6 @@ export function Barchat() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        flexDirection: "column",
       }}
     >
       <Bar options={options} data={data} />
